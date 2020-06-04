@@ -1,0 +1,430 @@
+/*Start main rulez*/
+ body
+ {
+  
+  
+ }
+   .container{
+            width: 1170px;
+            margin:auto;
+   }
+   .clarfix {clear: both}
+/*End main rulez*/
+/*Start header*/
+header .slider{background-image: url(../imgs/slider.jpg);
+               height:600px ;
+               -webkit-background-size: cover; /*csss3*/
+               -moz-background-size: cover; /*cover*/
+               -o-background-size: cover; /*cover*/         
+
+}
+        .slider .intro {  text-align: center;
+                          padding-top: 300px;
+                          height:560px;
+                          color:#FFF;
+}
+        .slider .intro h2{margin: 0 auto;
+                          font-size:50px;
+                          width:600px;
+                          border-bottom:solid 4px;
+                          border-top:solid 4px;
+                          padding:5px;
+        }
+        .slider .intro button{background :none;
+                              margin-top: 15px;
+                              padding:10px 20px;
+                              color:#FFF;
+                              border:solid 2px #FFF;
+                              width:140px;
+                              font-weight:bold;
+        }
+header nav{
+           background:#252F31;
+           color:#FFF;
+           overflow: hidden;
+          
+}
+       nav h2{ text-transform: uppercase;}
+           span{color: #3CD487;
+            
+           }
+       nav ul {
+            list-style:none;
+            overflow: hidden;
+            padding-left: 0;
+            float:right;
+       }
+       nav ul li{
+                float:left;
+                padding: 10px;
+       }
+       nav ul li a{text-decoration: none;
+                   color:#FFF;
+                   
+       }
+       nav ul li a:hover{color:#30B576}
+/*End header*/
+/*Start main*/
+/*Start features*/
+main .features{
+     margin-top:30px;
+     overflow: hidden;
+     padding-bottom: 40px;
+     padding-top: 50px;
+}
+      .features .ft{
+                    width:33.33333%;
+                }
+     .features .ft h2{color:#444;
+                      text-transform: uppercase;
+                      margin-bottom:20px;
+                      text-align:center;
+        
+     }
+     .features .ft p{text-align:center;
+                    line-height: 1.7;
+                    color:#888;
+          }
+/*End features*/
+/*Start About me*/
+   .about {background: #F2F2F2;
+           overflow: hidden;
+    }
+    .about .img{
+                width:40%;
+    }
+    .about .img img {width:100%;
+    }
+    .about  .info{
+                 width:60%;
+                 overflow: hidden;
+    }
+    .about .info h2{margin: 30px 0px 20px 40px;
+                     color:#555;
+                     
+    }
+    .about .info >p{
+                   margin: 0px 0px 20px 40px;
+               
+    }
+    .about .info p{
+                   line-height: 1.7;
+                   color:#777;
+    }
+    .about .info >p:last-of-type{
+                   margin: 25px 0px 20px 40px;
+                  
+    }
+    
+     .about .info .hobbies{ margin: 20px;
+                            overflow:hidden;
+    }
+    .about .info .hobbies .content{float:left;
+                                width:50%;
+                                min-height:100px;
+                                overflow: hidden;
+    }
+    .about .info .hobbies h3{color:#555}
+     .about .info .hobbies p{ }
+     .about .info .hobbies .content .icon{;float: left;width:12%;margin:2%}
+     .about .info .hobbies .content img{max-width: 100%;
+                                        margin:20px 10px 0px 0px;
+      }
+     .about .info .hobbies .content .text{float: left;width:83%}
+     .about .info .hobbies .content .text h3{margin-bottom: 5px}
+     .about .info .hobbies .content .text p{margin-top:5px}
+/*End About me*/
+/*Start skillz*/
+      .skillz{overflow: hidden;
+              padding-top: 30px;
+              padding-bottom: 50px;
+              
+      }
+      .skillz .skill,.skillz .progress{
+                     width:50%;
+                     float:left;
+      }
+      .skillz .progress{}
+    
+      .skillz .skill h2{margin: 30px 0px 20px 40px;
+                     color:#555;
+                     
+    }
+   
+    .skillz .skill p{
+                   line-height: 1.7;
+                   color:#777;
+                   margin: 0px 0px 20px 40px;
+    }
+    .skillz .skill >p:last-of-type{
+                   margin: 25px 0px 20px 40px;
+                  
+    }
+    .skillz .skill button{
+                          margin-left:40px;
+                          
+    }
+    .skillz .progress .tech {margin-left:50px;
+    
+    }
+    .skillz .progress .tech h3 {color:#555;
+    }
+    .skillz .progress .tech div{background: #F2F2F2;
+                                height:25px;
+                                
+    }
+     .skillz .progress .tech div span{background:#2DCC70;
+                                     height:25px;
+                                      display:block;
+                                      line-height: 25px;
+                                      text-align: right;
+                                      color:#FFF;
+                                      font-weight:bold;
+                                      
+     }
+/*End skillz*/
+/*Start resume*/
+
+    .resume{background:#F2F2F2;
+            padding-top: 50px;
+            padding-bottom: 70px;
+            text-align:center;
+        
+    }
+    .resume p{line-height: 1.7px;
+             padding:0px 40px;
+             color:#666;
+    }
+    .resume button{margin-top: 25px;}
+        
+                       
+/*End resume*/
+/*Start edu*/
+    .education .exp {
+                     width:50%;
+                     float:left;
+                     
+}
+    .education .cert{ overflow: hidden;
+                     width:45%;
+                     float:left;
+                     margin-left:5%;
+}
+   .education .exp h2{margin: 30px 0px 20px 40px;
+                     color:#555;}
+   .education .exp p{
+                   line-height: 1.7;
+                   color:#777;
+                   margin: 0px 0px 20px 40px;
+    }
+    .education .exp >p:last-of-type{
+                   margin: 25px 0px 20px 40px;       
+    }
+   .education .cert h3{margin-top:80px;
+                       margin-bottom:10px;
+   }
+   .education .cert span{display:block;
+                         margin-bottom:10px;
+         }
+ .education .cert span:first-of-type{color:#999;
+         }
+    .education .cert span:last-of-type{color:#FFF;
+                                       background:#2DCC70;
+                                       display:inline-block;
+                                       padding:4px 10px;
+         }
+    .education .cert hr{margin:20px 0px;background:#999;height:1px;border:0}
+    .education .cert  p{line-height: 1.7;
+                       color:#777;
+                   
+                       
+        
+    }
+/*End edu*/
+/*Start work*/
+       .work .exp {
+                     width:50%;
+                     float:left;
+                     
+}
+        .work .cert{ overflow: hidden;
+                     width:45%;
+                     float:left;
+                     margin-left:5%;
+}
+  
+         .work .exp h2{margin: 30px 0px 20px 40px;
+                     color:#555;}
+          .work .exp p{
+                   line-height: 1.7;
+                   color:#777;
+                   margin: 0px 0px 20px 40px;
+    }
+           .work .exp >p:last-of-type{
+                   margin: 25px 0px 20px 40px;       
+    }
+           .work .cert h3{margin-top:80px;
+                       margin-bottom:10px;
+   }
+           .work .cert span{display:block;
+                         margin-bottom:10px;
+         }
+            .work .cert span:first-of-type{color:#999;
+         }
+            .work .cert span:last-of-type{color:#FFF;
+                                       background:#2DCC70;
+                                       display:inline-block;
+                                       padding:4px 10px;
+         }
+             .work .cert hr{margin:20px 0px;background:#999;height:1px;border:0}
+          .work .cert  p{line-height: 1.7;
+                       color:#777;}
+         
+/*End work*/
+
+/*Start test*/
+
+       .test{background:#F2F2F2;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            text-align: center;}
+       .test q{ line-height: 1.7;
+                color:#666;
+                font-size: 18px;
+                font-style: italic;
+                font-weight: bold;
+       }
+      .test h3{color:#777;
+               margin-bottom: 30px;
+      
+      }
+      .test ul{list-style: none;
+                padding-left: 0;
+                text-align: center;
+      
+      }
+       .test ul li{width:10px;
+                   height: 10px;
+                   border:solid 2px #2DCC70;
+                   display:inline-block;
+                   border-radius: 50%;
+                   cursor: pointer;
+       }
+       .test ul li.active{background: #2DCC70}
+       .test ul li:hover{background: #2DCC70}
+/*End test*/
+/*Start portf*/
+       .port{ padding-top:50px;
+              padding-bottom: 70px;
+              text-align: center;
+    }
+       .port {
+        
+       }
+        .port  h2{color:#888
+        
+       }
+        .port  p{    color:#777;
+                      line-height:1.7;
+                      margin-bottom:30px;
+                      text-align:center;
+        
+       }
+             .pics{overflow: hidden;
+                
+             }
+             .pics>div{width:33.333333%;
+                       float:left;
+                       margin-bottom:20px;  
+             }
+             .pics>div img{width:92%;
+                           margin:10px;
+                           padding:3px;
+                           background:#FFF;
+                           border:solid 2px #CCC;
+                           box-shadow:10px 10px 12px #CCC;
+             }
+/*End portf*/
+/*start contact*/
+         .contact{background:#252F31;
+                            overflow: hidden;
+                            padding:40px 0px 70px 0px;
+            
+         }
+         .contact strong{color:#D1D6DA}
+         .contact .inf{float:left;
+                       width:50%;
+                       margin-right:5%}
+         .contact .inf h2 { margin-left:40px;
+                            color:#FFF}
+         .contact .inf p {color:#7A7F83;
+                          margin-left:40px;
+                          line-height:1.7;
+         }
+         
+         .contact .inf form{float: right;
+                            width:45%;
+         }
+          .contact  form label{display:block;
+                               margin:10px 0px;
+                               color:#FFF;
+                               
+          }
+          .contact  form input[type="text"] {background:#4B5557;
+                                            color:#FFF;
+                                            padding:10px;
+                                            border:0px;
+                                            width:40%;
+                                            margin-bottom: 10px;
+          }
+          .contact  form textarea{background:#4B5557;
+                                            color:#FFF;
+                                            padding:10px;
+                                            border:0px;
+                                            width:40%;
+                                            margin-bottom: 10px;
+                                             height:80px;}
+          .contact   button{color:#FFF;
+                                background:#191E22;
+                                padding:10px 15px;
+                                margin-top:15px;
+                                border:0px;
+          }                                   
+/*End contact*/
+/*End main*/
+/*start footer */
+         footer  
+                  .right{background:#191E22;
+                         text-align: center;
+                         overflow:hidden;
+                         
+                         
+                  }
+                  .right ul{list-style:none;
+                            overflow: hidden;
+                            padding-left:0px;
+                            }
+                  .right ul li{
+                               text-align: center;
+                               display:inline-block;
+                               
+                    }
+                  .right ul li a{text-decoration:none;}
+                  .right ul li a img{width:30px;margin:0px 3px;color:#FFF}
+                   .right p {padding-top:10px;
+                               color:#999;
+                               font-size:18px;
+                               font-weight:bold;
+                   }
+/*End footer*/
+/*Start my framework*/
+               .mybutton{
+                          background: none;
+                          color:#2DCC70;
+                          padding:10px 30px;
+                          border:solid 3px #2DCC70 ;
+                          font-weight: bold;
+}
+              .floatleft{float:left}      
+/*end my framework*/
+
